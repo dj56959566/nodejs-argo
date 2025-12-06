@@ -264,7 +264,7 @@ uuid: ${UUID}`;
         console。log(`${phpName} is running`);
         await new Promise((resolve) => setTimeout(resolve， 1000));
       } catch (error) {
-        console。error(`php running error: ${error}`);
+        console.error(`php running error: ${error}`);
       }
     } else {
       let NEZHA_TLS = '';
